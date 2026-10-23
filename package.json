@@ -1,0 +1,33 @@
+{
+  "name": "jovics-culture",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3107",
+    "build": "next build",
+    "start": "next start --port 3107",
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit",
+    "format": "prettier --write src scripts *.ts *.mjs *.json",
+    "verify:routes": "node scripts/verify-routes.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "motion": "^12.0.0",
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.0.0",
+    "postcss": "^8.0.0",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
