@@ -64,7 +64,7 @@ export function SiteHeader() {
             type="button"
             onClick={() => setMenu(true)}
             aria-label="Open menu"
-            className={cx("icon-btn -ml-2", !overHero && "lg:hidden")}
+            className={cx("icon-btn -ml-2 hidden", overHero && "lg:grid")}
           >
             <Menu size={23} />
           </button>
@@ -128,6 +128,14 @@ export function SiteHeader() {
                 </span>
               )}
             </Link>
+            <button
+              type="button"
+              onClick={() => setMenu(true)}
+              aria-label="Open menu"
+              className="icon-btn lg:hidden"
+            >
+              <Menu size={23} />
+            </button>
             <Link
               href="/book"
               className={cx(
