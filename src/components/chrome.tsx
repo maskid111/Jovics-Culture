@@ -69,7 +69,7 @@ export function SiteHeader() {
             <Menu size={23} />
           </button>
           <Link href="/" aria-label="Jovic’s Culture home" className="shrink-0">
-            <Wordmark light={overHero} />
+            <Wordmark light={overHero} compact />
           </Link>
           <nav
             aria-label="Main navigation"

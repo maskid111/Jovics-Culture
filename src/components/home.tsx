@@ -42,14 +42,15 @@ export function HomePage() {
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-forest-deep/85 via-forest-deep/45 to-forest-deep/10" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-forest-deep/70 via-transparent to-forest-deep/20" />
         <div className="container-x pt-40 pb-12 sm:pb-16 lg:pb-16">
-          <Reveal>
-            <h1 className="max-w-[26ch] text-[2rem] leading-[1.08] font-medium tracking-[-.02em] text-balance sm:text-5xl lg:text-6xl">
-              Professional home cleaning, garment care and everyday essentials,
-              thoughtfully delivered.
+          <Reveal className="pb-16">
+            <h1 className="max-w-[15ch] text-[2.55rem] leading-[1.02] font-medium tracking-[-.02em] text-balance sm:text-6xl lg:text-[4.75rem]">
+              Where Hygiene
+              <br />
+              Meets <em className="font-normal">Heritage.</em>
             </h1>
             <p className="mt-6 max-w-[27rem] text-sm leading-relaxed text-cream/85 sm:text-base">
-              A fresher home. A lighter wardrobe. A little more time for you.
-              Welcome to the Jovic’s way of living.
+              Professional home cleaning, garment care and everyday essentials,
+              thoughtfully delivered.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <ButtonLink href="/book" variant="cream" large>
